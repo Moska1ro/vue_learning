@@ -2,4 +2,4 @@
 
 ## My simple tour to Vue.js 
 + see .gitignore first;
-+ GitHub IO pages:
++ click here to run:
