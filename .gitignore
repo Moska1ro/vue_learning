@@ -2,7 +2,7 @@
 node_modules
 # /dist
 # 将用于生产环境的编译与压缩后的版本同样放入Git，
-# 在另一个GitHub repository部署GitHub IO。 
+# 在另一个server部署GitHub IO。 
 
 
 # local env files
