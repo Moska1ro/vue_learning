@@ -188,3 +188,13 @@ result: 用户名和密码不能为空
 result: 两个密码不一致
 result: 用户名已存在
 ```
+```
+  // 项目部署的基础路径
+  // 我们默认你的应用将会部署在域名的根部，比如 https://www.xxx.com/
+  // 如果你的应用时部署在一个子路径下，那么你需要在这里指定子路径。
+  // 比如，如果你的应用部署在https://www.xxx.com/public/
+  // 那么将这个值改为 `/public/`
+  // 部署生产环境和开发环境下的URL：可对当前环境进行区分，baseUrl 从 Vue CLI 3.3 起已弃用，要使用publicPath 
+  /* baseUrl: process.env.NODE_ENV === 'production' ? './' : '/' */
+  // publicPath: process.env.NODE_ENV === 'production' ? './' : './',
+  ```
